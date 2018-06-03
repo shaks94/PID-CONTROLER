@@ -1,3 +1,0 @@
-/Users/admin/Documents/UdacityTerm2/CarND-PID-Control-Project/build/CMakeFiles/rebuild_cache.dir
-/Users/admin/Documents/UdacityTerm2/CarND-PID-Control-Project/build/CMakeFiles/edit_cache.dir
-/Users/admin/Documents/UdacityTerm2/CarND-PID-Control-Project/build/CMakeFiles/pid.dir
