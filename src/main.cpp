@@ -33,9 +33,9 @@ int main()
   uWS::Hub h;
 
   PID pid;
-    double Kp =-0.13;
-    double Ki =0.004;
-    double Kd =-1.5;
+    double Kp =-0.02;
+    double Ki =0.002;
+    double Kd =-2.5;
 
     pid.Init(Kp, Ki, Kd);
   h.onMessage([&pid](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
