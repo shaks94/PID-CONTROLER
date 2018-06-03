@@ -6,7 +6,7 @@ the aim of the project is to keep car on track and consitant towards the track
 ------
 ### What does pid stands for 
 
-PID is starnd for   Proportional-Integral-Derivative Controller
+PID is stands for   Proportional-Integral-Derivative Controller
 
 The "P" for proportional means that the car will steer in proportion to the cross-track error, or CTE. As the car is to the left of the line then you would want to steer to the right and  if it is far to the left of the middle with a high CTE then you want a higher steering angle. 
 The "I" for integral sums up all CTEs up to that point, such that too many negative CTEs , i.e car is  back toward the middle, preventing the car from driving on one side of the lane the whole time.
@@ -17,6 +17,16 @@ The "D" for derivate is the change in CTE from one value to the next. This means
 
 
 -----
+
+### Final hyper params 
+
+I have done manual tuning in order to get the right hyper parameter 
+```
+double Kp =-0.13;
+double Ki =0.004;
+double Kd =-1.5;
+```
+The above are the  P, I, D coefficients  that I chose so that car can stay on track 
 
 ### Images from the Project
 
