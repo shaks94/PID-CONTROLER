@@ -22,14 +22,20 @@ The "D" for derivate is the change in CTE from one value to the next. This means
 
 I have done manual tuning in order to get the right hyper parameter 
 ```
-double Kp =-0.02;
+double Kp =-0.15;
 double Ki =0.002;
 double Kd =-2.5;
 ```
 The above are the  P, I, D coefficients  that I chose so that car can stay on track 
 
-### Images from the Project
+### Youtube link of the project is following
+-------------------------------------------
+| <a href="https://youtu.be/nrkpTsLLPrM" ><strong>Project Vidoe </storng></a>|
+------------------
 
+----
+
+### Images from the Project
 
 <img src="pics/1.png"  width="600"/>
 <img src="pics/2.png"  width="600"/>

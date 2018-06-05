@@ -33,7 +33,7 @@ int main()
   uWS::Hub h;
 
   PID pid;
-    double Kp =-0.02;
+    double Kp =-0.15;
     double Ki =0.002;
     double Kd =-2.5;
 
